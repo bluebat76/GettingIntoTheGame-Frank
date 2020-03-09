@@ -20,6 +20,7 @@ public class OutOfBounds : MonoBehaviour
         if (transform.position.z < -25)
         {
             Destroy(gameObject);
+            Debug.Log("GameOver");
         }
     }
 }

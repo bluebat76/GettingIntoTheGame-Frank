@@ -236,6 +236,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!114 &228920681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228920675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ec3eafeeb8daca499077c622dccaff0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &351626095 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 112640, guid: c7ca0992ba00761469f731111e56b107,
@@ -500,7 +512,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 40, z: 7.5}
+  m_LocalPosition: {x: 0, y: 40, z: 10}
   m_LocalScale: {x: 1, y: 20, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -516,6 +528,10 @@ PrefabInstance:
     - target: {fileID: 112640, guid: c7ca0992ba00761469f731111e56b107, type: 3}
       propertyPath: m_Name
       value: Animal_Chick (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 112640, guid: c7ca0992ba00761469f731111e56b107, type: 3}
+      propertyPath: m_TagString
+      value: Animals
       objectReference: {fileID: 0}
     - target: {fileID: 450808, guid: c7ca0992ba00761469f731111e56b107, type: 3}
       propertyPath: m_LocalPosition.x
@@ -632,6 +648,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animal_Cow_White
       objectReference: {fileID: 0}
+    - target: {fileID: 102230, guid: 85de8c5eef336ad48900b2ac3e7bf65d, type: 3}
+      propertyPath: m_TagString
+      value: Animals
+      objectReference: {fileID: 0}
     - target: {fileID: 424314, guid: 85de8c5eef336ad48900b2ac3e7bf65d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.5
@@ -690,6 +710,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animal_Rooster_Brown
       objectReference: {fileID: 0}
+    - target: {fileID: 127534, guid: 3fe800c166ae0d04881a20247bde736d, type: 3}
+      propertyPath: m_TagString
+      value: Animals
+      objectReference: {fileID: 0}
     - target: {fileID: 471710, guid: 3fe800c166ae0d04881a20247bde736d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -735,7 +759,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 7624904819648638712, guid: 3fe800c166ae0d04881a20247bde736d, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 3fe800c166ae0d04881a20247bde736d, type: 3}
 --- !u!1 &1277597428 stripped
 GameObject:
@@ -829,6 +853,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animal_Chick (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 112640, guid: c7ca0992ba00761469f731111e56b107, type: 3}
+      propertyPath: m_TagString
+      value: Animals
+      objectReference: {fileID: 0}
     - target: {fileID: 450808, guid: c7ca0992ba00761469f731111e56b107, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -886,6 +914,10 @@ PrefabInstance:
     - target: {fileID: 112640, guid: c7ca0992ba00761469f731111e56b107, type: 3}
       propertyPath: m_Name
       value: Animal_Chick
+      objectReference: {fileID: 0}
+    - target: {fileID: 112640, guid: c7ca0992ba00761469f731111e56b107, type: 3}
+      propertyPath: m_TagString
+      value: Animals
       objectReference: {fileID: 0}
     - target: {fileID: 450808, guid: c7ca0992ba00761469f731111e56b107, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1080,6 +1112,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animal_Horse_Black
       objectReference: {fileID: 0}
+    - target: {fileID: 139514, guid: 03e4c5418c1e9164bb1955135d815833, type: 3}
+      propertyPath: m_TagString
+      value: Animals
+      objectReference: {fileID: 0}
     - target: {fileID: 423370, guid: 03e4c5418c1e9164bb1955135d815833, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1126,6 +1162,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5862915862785538524, guid: 03e4c5418c1e9164bb1955135d815833, type: 3}
+    - {fileID: 6599873449055219619, guid: 03e4c5418c1e9164bb1955135d815833, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 03e4c5418c1e9164bb1955135d815833, type: 3}
 --- !u!1001 &2145012836
 PrefabInstance:
